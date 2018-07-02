@@ -1,0 +1,15 @@
+public class IteratorEmeration implements Enumerator{
+	Iterator iter;
+
+	public IteratorEmeration(Iterator iterator){
+		this.itera = iterator;
+	} 
+
+	public boolean hasMoreElements(){
+		return iterator.hasNext();
+	}
+
+	public Object nextElement(){
+		return iterator.next();
+	}
+}
